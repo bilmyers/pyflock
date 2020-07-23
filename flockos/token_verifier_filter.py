@@ -1,5 +1,5 @@
 import jwt
-from utils import send_403_response
+from .utils import send_403_response
 
 
 class TokenVerifierFilter:
