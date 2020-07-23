@@ -1,7 +1,7 @@
 import json
 import jwt
-from token_verifier_filter import TokenVerifierFilter
-from utils import send_200_response, send_403_response, send_404_response
+from .token_verifier_filter import TokenVerifierFilter
+from .utils import send_200_response, send_403_response, send_404_response
 
 
 class Event(object):
